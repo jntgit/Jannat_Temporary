@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    color:#fff;
+}
+
+#content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#content h1{
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+
+  #content h1{
+   font-size: 25px;
+  }
+
+  #content p{
+     font-size: 16px;
+    }
+
+  
+}
