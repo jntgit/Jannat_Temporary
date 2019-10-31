@@ -1,0 +1,45 @@
+.feedback{
+  padding: 80px 0;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../images/horsebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+.testimonial{
+    text-align: center;
+    margin: 0 15px;
+}
+.testimonial .testimonial-description{
+    font-size: 1.15em;
+    font-style: italic;
+    margin: 40px 0 20px;
+    font-weight: bold;
+}
+.testimonial > img{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: inline-block;
+    margin-right: 10px;
+}
+.testimonial-title{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #747d93;
+    font-size: 0.9em;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+}
+.testimonial-title small{
+    display: block;
+    margin-top: 10px;
+}
+.owl-pagination{
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #273c75;
+}

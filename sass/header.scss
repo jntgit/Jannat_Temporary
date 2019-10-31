@@ -1,0 +1,110 @@
+.navbar{
+  background-color: #273c75 !important;
+}
+
+#nav-btn{
+  border: 0px; //For removing grey outline from menu
+  color: #fff;
+  font-size: 25px; //menu size
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+.scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+/* Necessary for full page carousel*/
+html,
+   body,
+   .view {
+     height: 100%;
+   }
+
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+height: 100vh;
+min-height: 300px;
+}
+.carousel-inner {
+height: 100vh;
+}
+.carousel-item:nth-child(1) {
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../images/bg1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+.carousel-item:nth-child(2) {
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../images/bg2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+
+}
+.carousel-item:nth-child(3) {
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url("../images/bg3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+//Captions
+
+.carousel-caption{
+  bottom: 220px;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p{
+  width: 60%;
+  margin: auto;
+  line-height: 1.9;
+}
+
+.carousel-caption a{
+  text-transform: uppercase;
+  background: #273c75;
+  padding: 10px 30px;
+  color: #fff;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+//Media Queries
+
+@media only screen and (max-width: 767px) {
+
+  .carousel-caption{
+    padding-bottom: 50px;
+  }
+
+    .carousel-caption h5{
+   font-size: 25px;
+  }
+
+  .carousel-caption p{
+     font-size: 16px;
+     margin-bottom: 5px;
+    }
+
+  .carousel-caption a{
+    padding: 10px 25px;
+  }
+
+
+}

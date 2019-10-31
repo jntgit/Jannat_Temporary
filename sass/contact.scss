@@ -1,0 +1,38 @@
+.contact {
+  padding: 80px 0;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../images/horsebg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  color: #fff;
+}
+
+.contact .row {
+  padding: 30px 0;
+  font-size: 18px;
+}
+
+.contact .col-md-4 .fa {
+  padding: 10px;
+  font-size: 40px;
+}
+
+.contact .btn {
+  padding: 10px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  background: transparent;
+}
+
+.contact .btn:focus{
+  box-shadow: none !important;
+}
+
+.contact .btn:hover{
+  border: 2px solid #fff;
+  background: #60b0ba !important;
+  transition: 0.6s;
+}
